@@ -1,14 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import BasicForm from "./BasicForm";
-import Actionstateform from "./Actionstateform";
+import Controlledforms from "./Controlledforms";
 
 const App = () => {
   return (
     <>
       <Header />
-      {/* <BasicForm /> */}
-      <Actionstateform />
+      <Controlledforms />
     </>
   );
 };
