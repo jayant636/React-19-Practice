@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "./Header";
-import Controlledforms from "./Controlledforms";
+import SignIn from "./DynamicForms/SignIn";
+import SignUp from "./DynamicForms/SignUp";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Controlledforms />
+      <SignUp />
     </>
   );
 };
