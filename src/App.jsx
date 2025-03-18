@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import ReactHookForm from "./ReactHookForm";
+import UseReducer from "./Hooks/UseReducer";
+import UseEffect from "./Hooks/UseEffect";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <ReactHookForm />
+      <UseEffect />
     </>
   );
 };

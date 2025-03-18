@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div>Forms :</div>
+      <div>Hooks :</div>
       <br />
       <br />
     </>
