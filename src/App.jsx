@@ -12,6 +12,8 @@ import Admin from "./NestedRoutes/Admin";
 import User from "./NestedRoutes/User";
 import Dashboard from "./NestedRoutes/Dashboard";
 import DashboardHome from "./NestedRoutes/DashboardHome";
+import LearnAxios from "./Axios/LearnAxios";
+import UseQueryImpl from "./Axios/UseQueryImpl";
 
 const App = () => {
   const [name, setName] = useState({ name: "Paras" }); // For using useContext hook
@@ -19,7 +21,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="" element={<Header />} />
+        <Route index element={<UseQueryImpl />} />
+        <Route path="axios" element={<LearnAxios />} />
+        <Route path="header" element={<Header />} />
         <Route path="footer" element={<Footer />} />
         <Route path="about" element={<p>About Page</p>} />
         <Route path="*" element={<p>404 Not Found</p>} />
